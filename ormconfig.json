@@ -1,0 +1,27 @@
+{
+   "type": "mysql",
+   "host": "localhost",
+   "port": 3318,
+   "username": "orm_test",
+   "password": "qweasdzxc",
+   "database": "ORM_Test",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "build/entity/**/*.js",
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "build/migration/**/*.js",
+      "src/entity/**/*.ts"
+   ],
+   "subscribers": [
+      "build/subscriber/**/*.js",
+      "src/entity/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
