@@ -1,4 +1,4 @@
-# Awesome Project Build with TypeORM
+# Node JS with TypeORM Architecture
 
 Steps to run this project:
 
